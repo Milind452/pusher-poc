@@ -1,0 +1,17 @@
+Start!
+Count = 1; Method = batch-event
+Elapsed Time: 00:02.544
+***********
+Count = 10; Method = batch-event
+Elapsed Time: 00:00.340
+***********
+Count = 100; Method = batch-event
+Elapsed Time: 00:03.264
+***********
+Count = 1000; Method = batch-event
+Elapsed Time: 00:32.713
+***********
+Count = 10000; Method = batch-event
+Elapsed Time: 05:35.902
+***********
+End!

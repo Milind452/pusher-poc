@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Client 1</title>
+        <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
+        <script src="index.js" defer></script>
+    </head>
+    <style>
+        body {
+            background-color: #1d1d1d;
+            color: #fff;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            width: 50%;
+            text-align: center;
+            border-bottom: 2px dashed #282828;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .notification {
+            border: 1px solid #282828;
+            border-radius: 12px;
+            padding: 10px 100px;
+            line-height: 1.4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <body>
+        <main>
+            <h1>Client 1</h1>
+            <article>
+                <ul id="notifications"></ul>
+            </article>
+        </main>
+    </body>
+</html>

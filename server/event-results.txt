@@ -1,0 +1,17 @@
+Start!
+Count = 1; Method = event
+Elapsed Time: 00:01.618
+***********
+Count = 10; Method = event
+Elapsed Time: 00:00.314
+***********
+Count = 100; Method = event
+Elapsed Time: 00:00.313
+***********
+Count = 1000; Method = event
+Elapsed Time: 00:03.243
+***********
+Count = 10000; Method = event
+Elapsed Time: 00:32.038
+***********
+End!
